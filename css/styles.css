@@ -10,11 +10,11 @@
 body {
   color: var(--color-text);
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   background-color: var(--white);
 }
 .title {
-  font-weight: 700;
   color: var(--black-title);
 }
 
@@ -29,7 +29,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--blue);
@@ -41,17 +40,18 @@ body {
   color: var(--black-title);
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .current {
   color: var(--blue);
 }
-
 .nav-list:hover,
 .nav-list:focus {
   color: var(--blue);
+}
+.tint {
+  color: var(--color-text);
 }
 .hero {
   background-color: var(--bg-black);
@@ -63,6 +63,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 .hero-btn {
   color: var(--white);
@@ -76,14 +77,10 @@ body {
   cursor: pointer;
 }
 .credo-top {
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
 .credo-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .team {
   background: var(--bg-white);
@@ -92,7 +89,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-name {
   line-height: 1.19;
@@ -101,12 +97,10 @@ body {
   color: var(--black-title);
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.03em;
 }
 .team-job {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 .footer {
   background-color: var(--bg-black);
@@ -116,9 +110,7 @@ body {
 }
 .footer-nav {
   color: var(--white);
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .accent {
@@ -149,7 +141,7 @@ body {
   letter-spacing: 0.06em;
 }
 .work-text {
+  color: var(--color-text);
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
